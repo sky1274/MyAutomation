@@ -19,6 +19,8 @@ public class StringAlternativePrint {
             counter++;
         }
         System.out.println(altString);
+        System.out.println(altString);
+        
 
 	}
 
