@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Build is In Progress'
+            }
+        }
+        stage('Integrate') {
+            steps {
+                echo 'Integration is on going'
+            }
+        }
+        stage('Delivery') {
+            steps {
+                echo 'Deivery is on going'
+            }
+        }
+    }
+}
